@@ -1,0 +1,148 @@
+{
+  "profile": {
+    "name": "Soumya Roy",
+    "tagline": "Machine learning researcher interested in interpretable, mathematically grounded methods for sequential data, deep neural architectures, and language models.",
+    "location": "Liverpool, United Kingdom",
+    "email": "soumyaroy.academic@gmail.com",
+    "phone": "+44 7979 769239",
+    "linkedin": "https://linkedin.com/in/your-handle",
+    "github": "https://github.com/Soumyapro",
+    "summary": "I work at the boundary of rigorous mathematics and modern deep learning. My background spans interpretable and explainable AI for high-stakes prediction, including clinical risk and behavioural health, as well as time series and sequential modelling, from forecasting solar power output with RNNs and LSTMs to designing bounded imputation methods for ordered numerical sequences. I completed my MSc in Advanced Computer Science at the University of Liverpool. What ties this together is a focus on recovering reliable structure from high-dimensional, noisy, and incomplete data using methods I can actually explain, rather than opaque black-box scoring. I'm now looking for doctoral research across machine learning and AI more broadly: sequential and time series modelling, deep neural network architectures, NLP and large language models, and the mathematical foundations that make all of these trustworthy enough to use in practice.",
+    "cvFile": "Soumya_Roy_CV.pdf",
+    "goal": "Next stop: a fully-funded PhD in machine learning or AI, likely somewhere in sequential data, deep architectures, or NLP and LLMs. Long term, I'm aiming for a research career and, eventually, a professorship.",
+    "vibes": ["🎓 PhD-bound", "🔬 Interpretability nerd", "📐 Math-first thinker", "☕ Coffee-fuelled", "🧩 Patient puzzle-solver"]
+  },
+
+  "publications": [
+    {
+      "id": "pub-01",
+      "title": "Explainable Early Prediction of Acute Hypotensive Episodes in ICU Patients Using Routine Vital Signs: An eICU Study",
+      "authors": "Roy, S. and Sarkar, S.D.",
+      "year": "2026",
+      "venue": "Zenodo",
+      "status": "Preprint",
+      "doi": "https://doi.org/10.5281/zenodo.19161469",
+      "description": "Early-warning model for acute hypotensive episodes in ICU patients, built on routine vital signs with an emphasis on clinical interpretability over raw predictive accuracy."
+    },
+    {
+      "id": "pub-02",
+      "title": "Machine Learning-Based Risk Factor Analysis for Cervical Cancer Prediction: A Comparative Study of Class Imbalance Handling Strategies with SHAP-Driven Clinical Risk Stratification",
+      "authors": "Sarkar, S.D. and Roy, S.",
+      "year": "2026",
+      "venue": "Zenodo",
+      "status": "Preprint",
+      "doi": "https://doi.org/10.5281/zenodo.19368694",
+      "description": "Comparative evaluation of class imbalance strategies for cervical cancer risk prediction, paired with SHAP-driven stratification to keep risk attribution transparent and clinically usable."
+    },
+    {
+      "id": "pub-03",
+      "title": "Local Bounded Stochastic Imputation for Ordered Numerical Sequences",
+      "authors": "Roy, S. and Sarkar, S.D.",
+      "year": "2026",
+      "venue": "Zenodo",
+      "status": "Preprint",
+      "doi": "https://doi.org/10.5281/zenodo.19429162",
+      "description": "A bounded stochastic imputation method for ordered numerical sequences, designed to preserve local structure in incomplete real-world data without introducing unbounded noise."
+    },
+    {
+      "id": "pub-04",
+      "title": "A Mathematical Index for Quantifying and Reducing Student Depression Risk Through Personalised Behavioural Guidance",
+      "authors": "Sarkar, S.D. and Roy, S.",
+      "year": "2026",
+      "venue": "Zenodo",
+      "status": "Preprint",
+      "doi": "https://doi.org/10.5281/zenodo.19457072",
+      "description": "A quantitative index for student depression risk that supports personalised, behaviourally grounded guidance rather than a single opaque score."
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "proj-01",
+      "title": "UK Weather Mapping",
+      "type": "Data Visualisation Project",
+      "status": "Completed",
+      "year": "2025",
+      "description": "A live geospatial view of UK weather: pulls real-time conditions for 30+ cities from the OpenWeatherMap API, then renders them two ways. Static Cartopy maps cover temperature, conditions, and combined rainfall and wind, while an interactive Folium map adds clustered, pop-up-rich city markers. Built with retry-resilient request handling and written up end-to-end in an accompanying research report covering data sources, API design, and the reasoning behind each visualisation choice.",
+      "tools": ["Python", "Cartopy", "Folium", "Pandas", "OpenWeatherMap API"],
+      "link": "https://github.com/Soumyapro/Real-Time-Weather-Visualization-in-the-UK"
+    },
+    {
+      "id": "proj-02",
+      "title": "Solar Power Forecasting from Multi-Site Sensor Data",
+      "type": "Research Internship",
+      "status": "Completed",
+      "year": "2022",
+      "description": "Built and compared deep learning models (MLP, RNN, LSTM) to forecast short-term solar power output using weather and sensor data from 21 photovoltaic sites across Germany. Used sliding-window approaches and feature extraction (PCA, 1D CNN, autoencoders) to condense large time-series datasets, with deep models showing consistent gains over standard ML baselines.",
+      "tools": ["PyTorch", "PCA", "1D CNN", "Autoencoders"],
+      "link": ""
+    },
+    {
+      "id": "proj-03",
+      "title": "T2DM Urinary Metabolomics Analysis",
+      "type": "Research Project",
+      "status": "Completed",
+      "year": "2025",
+      "description": "An NMR-based urinary metabolomics pipeline investigating biomarkers of Type 2 Diabetes: 220 spectral features across 132 samples (MetaboLights MTBLS1), analysed with a metabolome-wide association study (87 of 220 metabolites significant after FDR correction) and a cross-validated Random Forest classifier reaching AUC = 0.985 ± 0.022. Thirteen metabolites, including isoleucine, hippurate, and 2-oxoisovalerate, were confirmed by both methods, echoing published evidence of disrupted amino acid metabolism and gut microbiome function in T2DM.",
+      "tools": ["Python", "scikit-learn", "statsmodels", "Random Forest", "PCA"],
+      "link": ""
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Teaching Assistant",
+      "org": "Dixons Fazakerley Academy",
+      "location": "Liverpool, United Kingdom",
+      "period": "November 2025 – Present",
+      "description": "Delivering lessons and supporting individual students, adjusting approach based on each student's needs."
+    },
+    {
+      "role": "Teaching Assistant",
+      "org": "Hillside High School",
+      "location": "Liverpool, United Kingdom",
+      "period": "September 2025 – November 2025",
+      "description": "Helped deliver lessons and worked with students one to one across different subject classes."
+    },
+    {
+      "role": "Software Engineer Intern",
+      "org": "Avanseus Technologies Pvt Ltd",
+      "location": "Bengaluru, India",
+      "period": "February 2024 – June 2024",
+      "description": "Developed a full-stack Employee Access Portal using React and Spring Boot, designing RESTful APIs that reduced authentication response time by 40%."
+    },
+    {
+      "role": "Research Intern – Solar Power Forecasting",
+      "org": "Indian Institute of Engineering Science and Technology",
+      "location": "Howrah, India",
+      "period": "May 2022 – July 2022",
+      "description": "Built and compared deep learning models to forecast short-term solar power output from multi-site sensor data."
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "MSc Advanced Computer Science",
+      "institution": "University of Liverpool",
+      "location": "Liverpool, United Kingdom",
+      "period": "September 2024 – September 2025",
+      "detail": "Award: Merit. Modules: Efficient Algorithm Design and Analysis, Computational Intelligence, Geographic Data Science, Safety and Dependability in Software Systems."
+    },
+    {
+      "degree": "Bachelor of Technology in Information Technology",
+      "institution": "Indian Institute of Engineering Science and Technology",
+      "location": "Howrah, India",
+      "period": "August 2019 – August 2023",
+      "detail": "Grade: 8.4/10. Modules: Machine Learning, Discrete Mathematics and Graph Theory, Database Management Systems, Object-Oriented Programming."
+    }
+  ],
+
+  "skills": {
+    "Programming": ["Python", "C++"],
+    "Machine Learning & AI": ["PyTorch", "TensorFlow", "Scikit-learn", "NumPy", "Pandas"],
+    "Biomedical & Image Analysis": ["MONAI", "OpenCV"],
+    "Web Technologies": ["React", "Node.js", "Express", "HTML", "CSS", "JavaScript"],
+    "Database Systems": ["MySQL", "MongoDB"],
+    "Tools & Platforms": ["Git", "GitHub", "Docker", "Power BI", "Postman"]
+  }
+}

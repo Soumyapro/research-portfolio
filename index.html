@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soumya Roy — Research Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Nunito:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+<div class="ambient-layer" id="ambientLayer" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <span class="nav-mark">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3 2 8l10 5 10-5-10-5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      S.R.
+    </span>
+    <div class="nav-links">
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Say hi 👋</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Research portfolio</p>
+      <h1 class="hero-name" id="heroName">Soumya Roy</h1>
+      <p class="hero-tagline" id="heroTagline">Loading…</p>
+      <p class="hero-goal" id="heroGoal"></p>
+      <div class="hero-vibes" id="heroVibes"></div>
+      <div class="hero-meta">
+        <span id="heroLocation">—</span>
+        <span class="dot">·</span>
+        <a id="heroCV" href="#" target="_blank">Download CV ↓</a>
+      </div>
+    </div>
+
+    <!-- Cosy desk-scene illustration with a couple of little stickers -->
+    <div class="hero-illustration">
+      <svg viewBox="0 0 240 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <ellipse cx="120" cy="240" rx="86" ry="10" fill="#3A342C" opacity="0.06"/>
+
+        <!-- little potted plant, left -->
+        <g class="leaf-sway">
+          <path d="M34 188c-10-14-4-30 10-34 2 16-2 28-10 34Z" fill="#8FA888"/>
+          <path d="M34 188c4-16 18-22 30-16-4 14-16 20-30 16Z" fill="#729C6C"/>
+        </g>
+        <path d="M26 188h26l-3 26h-20l-3-26Z" fill="#D99A78"/>
+        <path d="M26 188h26" stroke="#AD6944" stroke-width="2"/>
+
+        <!-- book stack -->
+        <rect x="70" y="204" width="118" height="16" rx="3" transform="rotate(-1 129 212)" fill="#DCB36C"/>
+        <rect x="66" y="188" width="122" height="16" rx="3" transform="rotate(1 127 196)" fill="#D99A78"/>
+        <rect x="72" y="172" width="112" height="16" rx="3" transform="rotate(-0.6 128 180)" fill="#8FA888"/>
+
+        <!-- mug with steam, right -->
+        <g>
+          <path class="steam s1" d="M182 130c-4 4-4 8 0 12" stroke="#C9C0B2" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+          <path class="steam s2" d="M190 130c-4 4-4 8 0 12" stroke="#C9C0B2" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+          <path class="steam s3" d="M198 132c-4 4-4 8 0 12" stroke="#C9C0B2" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+          <rect x="176" y="150" width="30" height="24" rx="5" fill="#FFFEFB" stroke="#E7DECD" stroke-width="1.5"/>
+          <path d="M206 156c8-2 10 10 1 12" fill="none" stroke="#E7DECD" stroke-width="2.4"/>
+        </g>
+
+        <!-- owl, sitting content on top of the books -->
+        <g>
+          <ellipse cx="122" cy="118" rx="46" ry="52" fill="#8FA888"/>
+          <ellipse cx="122" cy="134" rx="28" ry="32" fill="#FAF5EC"/>
+          <path d="M96 168l-6 12 M148 168l6 12" stroke="#DCB36C" stroke-width="4" stroke-linecap="round"/>
+          <!-- wing folds -->
+          <path d="M84 110c-6 14-4 30 6 40" fill="none" stroke="#729C6C" stroke-width="3" stroke-linecap="round"/>
+          <path d="M160 110c6 14 4 30-6 40" fill="none" stroke="#729C6C" stroke-width="3" stroke-linecap="round"/>
+          <!-- glasses -->
+          <circle cx="104" cy="108" r="16" fill="none" stroke="#3A342C" stroke-width="2.2"/>
+          <circle cx="140" cy="108" r="16" fill="none" stroke="#3A342C" stroke-width="2.2"/>
+          <path d="M120 108h4" stroke="#3A342C" stroke-width="2.2"/>
+          <path d="M88 104l-8-2 M156 104l8-2" stroke="#3A342C" stroke-width="2"/>
+          <!-- content, closed-ish eyes -->
+          <path class="blink" d="M98 108q6-6 12 0" fill="none" stroke="#3A342C" stroke-width="2.6" stroke-linecap="round"/>
+          <path class="blink" d="M134 108q6-6 12 0" fill="none" stroke="#3A342C" stroke-width="2.6" stroke-linecap="round"/>
+          <!-- beak -->
+          <path d="M115 122l7 10 7-10Z" fill="#DCB36C"/>
+          <!-- grad cap, tipped just slightly -->
+          <g transform="rotate(-4 122 78)">
+            <path d="M122 58 L172 76 L122 94 L72 76 Z" fill="#3A342C"/>
+            <rect x="112" y="90" width="20" height="14" rx="3" fill="#3A342C"/>
+            <circle cx="172" cy="76" r="3.4" fill="#DCB36C"/>
+            <path d="M172 76 L172 100" stroke="#DCB36C" stroke-width="2"/>
+            <circle cx="172" cy="103" r="4" fill="#DCB36C"/>
+          </g>
+        </g>
+      </svg>
+
+      <!-- little floating stickers around the scene -->
+      <svg class="sticker sp1" style="--rot:-10deg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c.6 3 2.4 4.8 5.4 5.4C14.4 8 12.6 9.8 12 12.8 11.4 9.8 9.6 8 6.6 7.4 9.6 6.8 11.4 5 12 2Z" fill="#DCB36C"/></svg>
+      <svg class="sticker sp2" style="--rot:8deg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 20s-7-4.4-9.4-9C.8 7.4 3 4 6.6 4c2 0 3.6 1.2 4.4 2.8C11.8 5.2 13.4 4 15.4 4 19 4 21.2 7.4 21.4 11 19 15.6 12 20 12 20Z" fill="none" stroke="#D99A78" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      <svg class="sticker sp3" style="--rot:-6deg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3 14 10 21 12 14 14 12 21 10 14 3 12 10 10 12 3Z" fill="#8FA888"/></svg>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ ABOUT / SUMMARY ============ -->
+  <section class="section about" id="about">
+    <div class="section-head">
+      <span class="section-badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 20c9 0 16-7 16-16-9 0-16 7-16 16Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 20c0-6 3-9 9-12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <h2>Research Focus</h2>
+    </div>
+    <div class="about-grid">
+      <p class="summary-text" id="summaryText">Loading…</p>
+      <figure class="polaroid">
+        <span class="tape" aria-hidden="true"></span>
+        <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="200" height="150" fill="#F2ECDF"/>
+          <rect x="14" y="80" width="60" height="50" rx="4" fill="#DCB36C"/>
+          <rect x="80" y="60" width="50" height="70" rx="4" fill="#D99A78"/>
+          <rect x="136" y="94" width="50" height="36" rx="4" fill="#8FA888"/>
+          <circle cx="45" cy="40" r="20" fill="#FFFEFB" stroke="#E7DECD" stroke-width="2"/>
+          <path d="M35 40q10-10 20 0" fill="none" stroke="#3A342C" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <figcaption>the (tidy) desk where the math happens</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ PUBLICATIONS ============ -->
+  <section class="section" id="publications">
+    <div class="section-head">
+      <span class="section-badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 5.5C5 4.5 8 4 12 5.5V19c-4-1.5-7-1-9 0V5.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M21 5.5C19 4.5 16 4 12 5.5V19c4-1.5 7-1 9 0V5.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </span>
+      <h2>Publications &amp; Preprints</h2>
+    </div>
+    <p class="section-sub">Output is listed newest first. Click a title to open the DOI record.</p>
+    <ol class="pub-list" id="pubList"></ol>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <span class="section-badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c3 2 5 6 5 10 0 2-1 4-2 5l-.5 4-2.5-2-2.5 2-.5-4c-1-1-2-3-2-5 0-4 2-8 5-10Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="11" r="2" stroke="currentColor" stroke-width="1.6"/></svg>
+      </span>
+      <h2>Projects</h2>
+    </div>
+    <p class="section-sub">Applied and academic work.</p>
+    <div class="project-grid" id="projectGrid"></div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="section-head">
+      <span class="section-badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M15 9l-4.5 2.5L8 16l4.5-2.5L15 9Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+      </span>
+      <h2>Experience &amp; Education</h2>
+    </div>
+    <div class="exp-columns">
+      <div class="exp-col">
+        <h3 class="exp-col-title">Experience</h3>
+        <ul class="timeline" id="expList"></ul>
+      </div>
+      <div class="exp-col">
+        <h3 class="exp-col-title">Education</h3>
+        <ul class="timeline" id="eduList"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="section-badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.7 6.3a4 4 0 0 1 5 5l-8 8a2 2 0 0 1-3 0l-2-2a2 2 0 0 1 0-3l8-8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 15l-4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <h2>Technical Skills</h2>
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact-section" id="contact">
+    <div class="section-head">
+      <span class="section-badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6.5 12 13l8.5-6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <h2>Get in Touch</h2>
+    </div>
+    <div class="contact-grid" id="contactGrid"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Made with curiosity (and a cup of coffee) · © <span id="year"></span> Soumya Roy</p>
+</footer>
+
+<!-- Floating mascot companion -->
+<div class="mascot-bubble" id="mascotBubble"></div>
+<div class="mascot-widget" id="mascotWidget" title="Say hi!">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <ellipse cx="50" cy="58" rx="30" ry="32" fill="#8FA888"/>
+    <ellipse cx="50" cy="66" rx="18" ry="20" fill="#FAF5EC"/>
+    <circle cx="40" cy="52" r="10" fill="none" stroke="#3A342C" stroke-width="1.8"/>
+    <circle cx="60" cy="52" r="10" fill="none" stroke="#3A342C" stroke-width="1.8"/>
+    <path d="M34 52q6-6 12 0" fill="none" stroke="#3A342C" stroke-width="2" stroke-linecap="round"/>
+    <path d="M54 52q6-6 12 0" fill="none" stroke="#3A342C" stroke-width="2" stroke-linecap="round"/>
+    <path d="M46 62l4 6 4-6Z" fill="#DCB36C"/>
+    <path d="M50 26 L80 38 L50 50 L20 38 Z" fill="#3A342C"/>
+    <circle cx="80" cy="38" r="2.4" fill="#DCB36C"/>
+  </svg>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
