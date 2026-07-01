@@ -140,6 +140,7 @@
   "skills": {
     "Programming": ["Python", "C++"],
     "Machine Learning & AI": ["PyTorch", "TensorFlow", "Scikit-learn", "NumPy", "Pandas"],
+    "NLP & LLMs": ["LangChain", "RAG", "Hugging Face Transformers"],
     "Biomedical & Image Analysis": ["MONAI", "OpenCV"],
     "Web Technologies": ["React", "Node.js", "Express", "HTML", "CSS", "JavaScript"],
     "Database Systems": ["MySQL", "MongoDB"],
