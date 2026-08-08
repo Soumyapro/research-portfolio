@@ -56,38 +56,42 @@
     }
   ],
 
-  "projects": [
-    {
-      "id": "proj-01",
-      "title": "UK Weather Mapping",
-      "type": "Data Visualisation Project",
-      "status": "Completed",
-      "year": "2025",
-      "description": "A live geospatial view of UK weather: pulls real-time conditions for 30+ cities from the OpenWeatherMap API, then renders them two ways. Static Cartopy maps cover temperature, conditions, and combined rainfall and wind, while an interactive Folium map adds clustered, pop-up-rich city markers. Built with retry-resilient request handling and written up end-to-end in an accompanying research report covering data sources, API design, and the reasoning behind each visualisation choice.",
-      "tools": ["Python", "Cartopy", "Folium", "Pandas", "OpenWeatherMap API"],
-      "link": "https://github.com/Soumyapro/Real-Time-Weather-Visualization-in-the-UK"
-    },
-    {
-      "id": "proj-02",
-      "title": "Solar Power Forecasting from Multi-Site Sensor Data",
-      "type": "Research Internship",
-      "status": "Completed",
-      "year": "2022",
-      "description": "Built and compared deep learning models (MLP, RNN, LSTM) to forecast short-term solar power output using weather and sensor data from 21 photovoltaic sites across Germany. Used sliding-window approaches and feature extraction (PCA, 1D CNN, autoencoders) to condense large time-series datasets, with deep models showing consistent gains over standard ML baselines.",
-      "tools": ["PyTorch", "PCA", "1D CNN", "Autoencoders"],
-      "link": ""
-    },
-    {
-      "id": "proj-03",
-      "title": "T2DM Urinary Metabolomics Analysis",
-      "type": "Research Project",
-      "status": "Completed",
-      "year": "2025",
-      "description": "An NMR-based urinary metabolomics pipeline investigating biomarkers of Type 2 Diabetes: 220 spectral features across 132 samples (MetaboLights MTBLS1), analysed with a metabolome-wide association study (87 of 220 metabolites significant after FDR correction) and a cross-validated Random Forest classifier reaching AUC = 0.985 ± 0.022. Thirteen metabolites, including isoleucine, hippurate, and 2-oxoisovalerate, were confirmed by both methods, echoing published evidence of disrupted amino acid metabolism and gut microbiome function in T2DM.",
-      "tools": ["Python", "scikit-learn", "statsmodels", "Random Forest", "PCA"],
-      "link": ""
-    }
-  ],
+  "projects": {
+    "llm": [],
+    "agents": [],
+    "applied": [
+      {
+        "id": "proj-01",
+        "title": "UK Weather Mapping",
+        "type": "Data Visualisation Project",
+        "status": "Completed",
+        "year": "2025",
+        "description": "A live geospatial view of UK weather: pulls real-time conditions for 30+ cities from the OpenWeatherMap API, then renders them two ways. Static Cartopy maps cover temperature, conditions, and combined rainfall and wind, while an interactive Folium map adds clustered, pop-up-rich city markers. Built with retry-resilient request handling and written up end-to-end in an accompanying research report covering data sources, API design, and the reasoning behind each visualisation choice.",
+        "tools": ["Python", "Cartopy", "Folium", "Pandas", "OpenWeatherMap API"],
+        "link": "https://github.com/Soumyapro/Real-Time-Weather-Visualization-in-the-UK"
+      },
+      {
+        "id": "proj-02",
+        "title": "Solar Power Forecasting from Multi-Site Sensor Data",
+        "type": "Research Internship",
+        "status": "Completed",
+        "year": "2022",
+        "description": "Built and compared deep learning models (MLP, RNN, LSTM) to forecast short-term solar power output using weather and sensor data from 21 photovoltaic sites across Germany. Used sliding-window approaches and feature extraction (PCA, 1D CNN, autoencoders) to condense large time-series datasets, with deep models showing consistent gains over standard ML baselines.",
+        "tools": ["PyTorch", "PCA", "1D CNN", "Autoencoders"],
+        "link": ""
+      },
+      {
+        "id": "proj-03",
+        "title": "T2DM Urinary Metabolomics Analysis",
+        "type": "Research Project",
+        "status": "Completed",
+        "year": "2025",
+        "description": "An NMR-based urinary metabolomics pipeline investigating biomarkers of Type 2 Diabetes: 220 spectral features across 132 samples (MetaboLights MTBLS1), analysed with a metabolome-wide association study (87 of 220 metabolites significant after FDR correction) and a cross-validated Random Forest classifier reaching AUC = 0.985 ± 0.022. Thirteen metabolites, including isoleucine, hippurate, and 2-oxoisovalerate, were confirmed by both methods, echoing published evidence of disrupted amino acid metabolism and gut microbiome function in T2DM.",
+        "tools": ["Python", "scikit-learn", "statsmodels", "Random Forest", "PCA"],
+        "link": ""
+      }
+    ]
+  },
 
   "experience": [
     {
@@ -140,8 +144,8 @@
   "skills": {
     "Programming": ["Python", "C++"],
     "Machine Learning & AI": ["PyTorch", "TensorFlow", "Scikit-learn", "NumPy", "Pandas"],
-    "NLP & LLMs": ["LangChain", "RAG", "Hugging Face Transformers"],
-    "Biomedical & Image Analysis": ["MONAI", "OpenCV"],
+    "NLP & LLMs": ["LangChain", "LangGraph", "RAG", "Hugging Face Transformers"],
+    "Biomedical & Image Analysis": ["OpenCV"],
     "Web Technologies": ["React", "Node.js", "Express", "HTML", "CSS", "JavaScript"],
     "Database Systems": ["MySQL", "MongoDB"],
     "Tools & Platforms": ["Git", "GitHub", "Docker", "Power BI", "Postman"]
