@@ -1,29 +1,29 @@
 /* ============================================
-   TOKENS — clean, simple, light.
-   Neutral paper + one calm blue accent,
-   with amber and teal used sparingly on stickers.
+   TOKENS — dark, soft, easy on the eyes.
+   Deep slate surfaces + muted periwinkle accent,
+   with mint and warm amber used sparingly.
    Static only — no animation.
    ============================================ */
 :root{
-  --paper:       #FCFCFD;
-  --paper-dim:   #F4F5F7;
-  --card:        #FFFFFF;
-  --ink:         #22262E;
-  --ink-soft:    #6B7280;
+  --paper:       #171A21;
+  --paper-dim:   #1E222B;
+  --card:        #1E222B;
+  --ink:         #E6E9EF;
+  --ink-soft:    #949CAC;
 
-  --rule:        #E5E7EB;
+  --rule:        #2C313D;
 
-  --blue:        #5B7CFA;
-  --blue-soft:   #EAEFFF;
-  --blue-deep:   #3550C7;
+  --blue:        #8FA7F5;
+  --blue-soft:   #232941;
+  --blue-deep:   #A9BCFF;
 
-  --teal:        #2FB6A8;
-  --teal-soft:   #E0F5F2;
-  --teal-deep:   #1B8478;
+  --teal:        #5FD0B8;
+  --teal-soft:   #1B302E;
+  --teal-deep:   #7FE0CA;
 
-  --amber:       #E9A23B;
-  --amber-soft:  #FDF1DE;
-  --amber-deep:  #B4761E;
+  --amber:       #E8B366;
+  --amber-soft:  #332818;
+  --amber-deep:  #F2C684;
 
   --display: 'Fraunces', 'Source Serif 4', serif;
   --sans:    'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -69,7 +69,7 @@ a{ color:inherit; text-decoration:none; }
    ============================================ */
 .nav{
   position:fixed; top:0; left:0; right:0; z-index:100;
-  background:rgba(252,252,253,0.92);
+  background:rgba(23,26,33,0.92);
   backdrop-filter:blur(10px);
   border-bottom:1px solid var(--rule);
 }
@@ -90,7 +90,7 @@ a{ color:inherit; text-decoration:none; }
 }
 .nav-links a:hover{ color:var(--blue-deep); }
 .nav-cta{
-  background:var(--blue); color:#fff !important;
+  background:var(--blue); color:#171A21 !important;
   padding:7px 16px; border-radius:8px;
   transition:background 0.15s;
 }
@@ -152,14 +152,6 @@ a{ color:inherit; text-decoration:none; }
   display:flex; align-items:center; flex-wrap:wrap; gap:12px;
   font-family:var(--mono); font-size:0.84rem; color:var(--ink-soft);
 }
-.hero-meta .dot{ color:var(--rule); }
-.hero-meta a{
-  color:#fff; font-weight:600; font-family:var(--sans);
-  background:var(--blue);
-  padding:8px 16px; border-radius:8px;
-  transition:background 0.15s;
-}
-.hero-meta a:hover{ background:var(--blue-deep); }
 
 /* --- Hero illustration: static desk scene --- */
 .hero-illustration{
@@ -219,7 +211,7 @@ main{ max-width:var(--max-w); margin:0 auto; }
 .polaroid{
   background:var(--card); padding:10px 10px 26px; border-radius:8px;
   border:1px solid var(--rule);
-  box-shadow:0 4px 14px rgba(34,38,46,0.06);
+  box-shadow:0 4px 16px rgba(0,0,0,0.3);
   width:190px; flex-shrink:0; transform:rotate(2deg);
   position:relative; margin-top:4px;
 }
