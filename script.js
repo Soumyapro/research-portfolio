@@ -22,8 +22,6 @@ function renderHero(profile){
   $('heroName').textContent = profile.name;
   $('heroTagline').textContent = profile.tagline;
   $('heroLocation').textContent = '📍 ' + profile.location;
-  $('heroCV').href = profile.cvFile || '#';
-  if(profile.cvFile){ $('heroCV').setAttribute('download', profile.cvFile); }
   document.title = `${profile.name} | Research Portfolio`;
 
   if(profile.goal){
